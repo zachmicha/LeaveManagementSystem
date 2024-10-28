@@ -1,10 +1,11 @@
-﻿@model LeaveManagementSystem.Data.LeaveType
+﻿@using LeaveManagementSystem.Models.LeaveTypes
+@model LeaveTypeReadOnlyVM
 
 @{
     ViewData["Title"] = $"{Model.Name} Details";
 }
 
-<h1>Leave Type Details for @Model.Name</h1>
+<h1>@Model.Name Details</h1>
 
 <div>
     <hr />

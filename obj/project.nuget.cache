@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TpqvdnlfFmM=",
+  "dgSpecHash": "7Pc+4jc7oJk=",
   "success": true,
   "projectFilePath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\krwaw\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\krwaw\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\krwaw\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\krwaw\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
