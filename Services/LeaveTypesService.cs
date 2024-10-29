@@ -68,7 +68,7 @@ namespace LeaveManagementSystem.Services
             return await _context.LeaveTypes.AnyAsync(q => q.Name.ToLower().Equals(name));
         }
 
-        public async Task<bool> CheckIfLeaveTypeNammeExistsForEdit(LeaveTypeEditVM leaveType)
+        public async Task<bool> CheckIfLeaveTypeNameExistsForEdit(LeaveTypeEditVM leaveType)
         {
             var lowercaseName = leaveType.Name.ToLower();
 

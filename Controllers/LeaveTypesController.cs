@@ -12,6 +12,7 @@ using LeaveManagementSystem.Services;
 
 namespace LeaveManagementSystem.Controllers
 {
+    [Authorize(Roles = Roles.Administrator)]
     public class LeaveTypesController(ILeaveTypesService leaveTypesService) : Controller
     {
         private const string errorMesssage = "This type already exists in database";
@@ -98,7 +99,7 @@ namespace LeaveManagementSystem.Controllers
             {
                 return NotFound();
             }
-            if (await _leaveTypesService.CheckIfLeaveTypeNammeExistsForEdit(leaveTypeEdit))
+            if (await _leaveTypesService.CheckIfLeaveTypeNameExistsForEdit(leaveTypeEdit))
             {
                 ModelState.AddModelError(nameof(leaveTypeEdit.Name), errorMesssage);
             }
