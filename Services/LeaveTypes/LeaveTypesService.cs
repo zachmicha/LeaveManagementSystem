@@ -3,7 +3,7 @@ using LeaveManagementSystem.Data;
 using LeaveManagementSystem.Models.LeaveTypes;
 using Microsoft.EntityFrameworkCore;
 
-namespace LeaveManagementSystem.Services
+namespace LeaveManagementSystem.Services.LeaveTypes
 {
     public class LeaveTypesService : ILeaveTypesService
     {
@@ -12,8 +12,8 @@ namespace LeaveManagementSystem.Services
 
         public LeaveTypesService(ApplicationDbContext context, IMapper mapper)
         {
-            this._context = context;
-            this._mapper = mapper;
+            _context = context;
+            _mapper = mapper;
         }
 
         public async Task<List<LeaveTypeReadOnlyVM>> GetAllLeaveTypes()

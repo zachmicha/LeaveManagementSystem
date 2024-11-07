@@ -1,0 +1,75 @@
+﻿@model EmployeeAllocationVM
+@{
+    ViewData["Title"] = "Allocation Details";
+
+}
+<h1>View Allocation for @Model.FirstName @Model.LastName</h1>
+<div>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd> 
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+    </dl>
+</div>
+<hr />
+@if (Model.LeaveAllocations.Any())
+{
+    <div class="card">
+        <div class="card-header">
+            <h4>Leave Allocations for period @Model.LeaveAllocations[0].Period.Name</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col">Leave Name</div>
+                    <div class="col">Original Allocation</div>
+                    <div class="col">Current Allocation</div>
+                    <div class="col">Action</div>
+                </div>
+            </li>
+            @foreach (var allocation in Model.LeaveAllocations)
+            {
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col">@allocation.LeaveType.Name</div>
+                        <div class="col">
+                            <span class="badge rounded-pill bg-primary">@allocation.NumberOfDays</span>
+                        </div>
+                        <div class="col"><span class="badge rounded-pill bg-warning">@allocation.NumberOfDays</span></div>
+                        <div class="col">
+                            <a asp-controller="LeaveRequest" asp-action="Create" class="btn btn-success">Request Leave</a>
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+}
+else
+{
+   <div class="alert alert-warning" role="alert">
+       <h2>You have no allocations please contact your admin</h2>
+   </div>
+}

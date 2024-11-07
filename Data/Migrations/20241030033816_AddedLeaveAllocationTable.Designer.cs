@@ -4,6 +4,7 @@ using LeaveManagementSystem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LeaveManagementSystem.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241030033816_AddedLeaveAllocationTable")]
+    partial class AddedLeaveAllocationTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -102,7 +105,7 @@ namespace LeaveManagementSystem.Data.Migrations
                         {
                             Id = "2a918535-cabe-451f-b212-8c11c7c78dee",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e520c6e5-56f6-4453-aed4-78ac2ea4d6b1",
+                            ConcurrencyStamp = "383c16f0-3ac2-4694-851e-0b3605251cea",
                             DateOfBirth = new DateOnly(1980, 10, 10),
                             Email = "admin@localhost.com",
                             EmailConfirmed = true,
@@ -111,9 +114,9 @@ namespace LeaveManagementSystem.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOY+mul4qmwVvJqadEn9JfkGgt0Z4r5mdkgyrFx2cnVSA3KUGwdpMaj8iP76k+g8tQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEv01hlSnMfAZnVRBkwaWC+8waxxw9SSuj9WgveYehCROlXaCHTeXZ9u4vvEthmy1A==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "125ab781-c07e-4e76-96aa-26203ed74440",
+                            SecurityStamp = "37c8f182-e680-469b-9476-1ee6c104e8e2",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         });
@@ -127,14 +130,14 @@ namespace LeaveManagementSystem.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Days")
+                        .HasColumnType("int");
+
                     b.Property<string>("EmployeeId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("LeaveTypeId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("NumberOfDays")
                         .HasColumnType("int");
 
                     b.Property<int>("PeriodId")

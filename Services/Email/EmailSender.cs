@@ -1,7 +1,7 @@
 ﻿
 using System.Net.Mail;
 
-namespace LeaveManagementSystem.Services
+namespace LeaveManagementSystem.Services.Email
 {
     public class EmailSender(IConfiguration _configuration) : IEmailSender
     {
@@ -9,19 +9,19 @@ namespace LeaveManagementSystem.Services
         {
             var fromAdress = _configuration["EmailSettings:DefaultEmailAdress"];
             var smtpServer = _configuration["EmailSettings:Server"];
-            var smtpPort = Convert.ToInt32( _configuration["EmailSettings:Port"]);
+            var smtpPort = Convert.ToInt32(_configuration["EmailSettings:Port"]);
             var message = new MailMessage
             {
-                From= new MailAddress(fromAdress),
-                Subject=subject,
+                From = new MailAddress(fromAdress),
+                Subject = subject,
                 Body = htmlMessage,
-                IsBodyHtml=true
+                IsBodyHtml = true
             };
 
             message.To.Add(new MailAddress(fromAdress));
 
-            using var client = new SmtpClient(smtpServer,smtpPort);
-           await client.SendMailAsync(message);
+            using var client = new SmtpClient(smtpServer, smtpPort);
+            await client.SendMailAsync(message);
         }
     }
 }
