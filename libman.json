@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/lib/sweetalert/"
+    },
+    {
+      "library": "jqueryui@1.14.1",
+      "destination": "wwwroot/lib/jqueryui/"
+    }
+  ]
+}

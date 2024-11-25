@@ -1,9 +1,21 @@
 ﻿@model EmployeeAllocationVM
 @{
     ViewData["Title"] = "Allocation Details";
-
+    var isAdmin = User.IsInRole(Roles.Administrator);
+    var isEmployee = User.IsInRole(Roles.Employee);
+    string message = isAdmin ? "There are no allocations" : "You have no allocations please contact your admin";
 }
 <h1>View Allocation for @Model.FirstName @Model.LastName</h1>
+
+@if (isAdmin)
+{
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+}
+@if (isEmployee)
+{
+    <a asp-controller="LeaveRequests" asp-action="Index" class="btn btn-primary">View request history</a>
+
+}
 <div>
     <hr/>
     <dl class="row">
@@ -34,6 +46,17 @@
     </dl>
 </div>
 <hr />
+@if (isAdmin && Model.IsCompletedAllocation == false)
+{
+    <div class="alert alert-warning">
+        <p>User is missing some leave allocations.</p>
+    </div>
+    <form asp-action="AllocationLeave">
+        <input type="hidden" asp-for="@Model.Id" />
+        <input type="submit" value="Allocate leave" class="btn btn-danger" />
+    </form>
+    <br/>
+}
 @if (Model.LeaveAllocations.Any())
 {
     <div class="card">
@@ -59,7 +82,11 @@
                         </div>
                         <div class="col"><span class="badge rounded-pill bg-warning">@allocation.NumberOfDays</span></div>
                         <div class="col">
-                            <a asp-controller="LeaveRequest" asp-action="Create" class="btn btn-success">Request Leave</a>
+                            @if (isAdmin)
+                            {
+                                <a class="btn btn-warning" asp-action="EditAllocation" asp-route-id="@allocation.Id">Edit Allocation</a>
+                            }
+                            <a asp-controller="LeaveRequests" asp-route-leaveTypeId="@allocation.LeaveType.Id" asp-action="Create" class="btn btn-success">Request Leave</a>
                         </div>
                     </div>
                 </li>
@@ -70,6 +97,6 @@
 else
 {
    <div class="alert alert-warning" role="alert">
-       <h2>You have no allocations please contact your admin</h2>
+       <h2>@message</h2>
    </div>
 }

@@ -292,3 +292,4 @@ C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\obj\Debu
 C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\obj\Debug\net8.0\LeaveManagementSystem.pdb
 C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\obj\Debug\net8.0\LeaveManagementSystem.genruntimeconfig.cache
 C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\obj\Debug\net8.0\ref\LeaveManagementSystem.dll
+C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\libman.json

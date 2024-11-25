@@ -198,8 +198,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVBbGxvY2F0aW9uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/krwaw/source/repos/LeaveManagementSystem/LeaveManagementSystem/Views/LeaveAllocation/EditAllocation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVBbGxvY2F0aW9uXEVkaXRBbGxvY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/krwaw/source/repos/LeaveManagementSystem/LeaveManagementSystem/Views/LeaveAllocation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVBbGxvY2F0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krwaw/source/repos/LeaveManagementSystem/LeaveManagementSystem/Views/LeaveRequests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krwaw/source/repos/LeaveManagementSystem/LeaveManagementSystem/Views/LeaveRequests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krwaw/source/repos/LeaveManagementSystem/LeaveManagementSystem/Views/LeaveRequests/ListRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xMaXN0UmVxdWVzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krwaw/source/repos/LeaveManagementSystem/LeaveManagementSystem/Views/LeaveRequests/Review.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVSZXF1ZXN0c1xSZXZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/krwaw/source/repos/LeaveManagementSystem/LeaveManagementSystem/Views/LeaveTypes/Create.cshtml]

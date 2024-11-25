@@ -1,7 +1,10 @@
 using LeaveManagementSystem.Data;
 using LeaveManagementSystem.Services.Email;
 using LeaveManagementSystem.Services.LeaveAllocations;
+using LeaveManagementSystem.Services.LeaveRequests;
 using LeaveManagementSystem.Services.LeaveTypes;
+using LeaveManagementSystem.Services.Periods;
+using LeaveManagementSystem.Services.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
@@ -14,10 +17,23 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-
 builder.Services.AddScoped<ILeaveTypesService, LeaveTypesService>();
 builder.Services.AddScoped<ILeaveAllocationsService, LeaveAllocationsService>();
+builder.Services.AddScoped<ILeaveRequestsService, LeaveRequestsService>();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOrSupervisorOnly", policy =>
+    {
+        policy.RequireRole(Roles.Administrator, Roles.Supervisor);
+    });
+});
+
+
+builder.Services.AddScoped<IPeriodsService, PeriodsService>();
+builder.Services.AddScoped<IUserService, UserService>();
+
 builder.Services.AddHttpContextAccessor();
 
 

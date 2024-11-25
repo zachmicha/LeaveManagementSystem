@@ -11,7 +11,7 @@ namespace LeaveManagementSystem.MappingProfiles
         public LeaveAlloccationAutoMapperProfile()
         {
             CreateMap<LeaveAllocation, LeaveAllocationVM>();
-           // CreateMap<LeaveAllocation, LeaveAllocationEditVM>();
+            CreateMap<LeaveAllocation, LeaveAllocationEditVM>();
             CreateMap<ApplicationUser, EmployeeListVM>();
             CreateMap<Period, PeriodVM>();
 

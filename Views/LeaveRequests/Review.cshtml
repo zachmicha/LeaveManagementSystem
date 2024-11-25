@@ -1,0 +1,85 @@
+﻿@model ReviewLeaveRequestVM
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Leave Request Review";
+}
+<h1>Leave Request Review</h1>
+<div class="alert alert-info" role="alert">
+    <h4 class="alert-heading">Requesting Employee</h4>
+    <hr />
+    <p>
+        <strong> Name:</strong> @Model.Employee.FirstName @Model.Employee.LastName
+        <strong>Email:</strong> @Model.Employee.Email
+</div>
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model=>model.LeaveType)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model=>model.LeaveType)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.StartDate)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.StartDate)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.EndDate)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.EndDate)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.RequestComments)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.RequestComments)
+    </dd>
+</dl>
+
+<div class="row">
+    <div class="col">
+        <button class="btn btn-success approvalBtn" data-id="@Model.Id" data-approved="true">Approve</button>
+    </div>
+    <div class="col">
+        <button class="btn btn-danger approvalBtn" data-id="@Model.Id" data-approved="false">Decline</button>
+    </div>
+    <div class="col">
+        <a class="btn btn-primary" asp-action="ListRequests">Back to List</a>
+    </div>
+
+<form asp-action="Review" id="approvalForm">
+    <input type="hidden" name="id" id="leaveRequestId" />
+    <input type="hidden" name="approved" id="approved" />
+</form>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('.approvalBtn').click(
+                function (e) {
+                    swal({
+                        title: "Are you sure?",
+                        text: "Please confirm this approval decision",
+                        icon: "warning",
+                        buttons: true,
+                        dangerMode: true
+                    }).then((confirm) => {
+                        if (confirm) {
+                            var btn = $(this);
+                            var id = btn.data("id");
+                            var approved = btn.data("approved");
+                            $('#leaveRequestId').val(id);
+                            $('#approved').val(approved);
+                            $('#approvalForm').submit();
+                        }
+                    });
+                }
+            );
+        });
+    </script>
+}
