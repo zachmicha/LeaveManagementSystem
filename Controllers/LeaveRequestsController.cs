@@ -1,8 +1,4 @@
-﻿using LeaveManagementSystem.Models.LeaveRequests;
-using LeaveManagementSystem.Services.LeaveRequests;
-using LeaveManagementSystem.Services.LeaveTypes;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace LeaveManagementSystem.Controllers
 {
@@ -16,14 +12,14 @@ namespace LeaveManagementSystem.Controllers
         }
         public async Task<IActionResult> Create(int? leaveTypeId)
         {
-           
+
             var leaveTypes = await _leaveTypesService.GetAllLeaveTypes();
             var leaveTypesList = new SelectList(leaveTypes, "Id", "Name", leaveTypeId);
             var model = new LeaveRequestCreateVM
             {
                 LeaveTypes = leaveTypesList,
-                StartDate=DateOnly.FromDateTime(DateTime.Now),
-                EndDate=DateOnly.FromDateTime(DateTime.Now.Date.AddDays(1)),
+                StartDate = DateOnly.FromDateTime(DateTime.Now),
+                EndDate = DateOnly.FromDateTime(DateTime.Now.Date.AddDays(1)),
 
             };
             return View(model);
@@ -53,21 +49,21 @@ namespace LeaveManagementSystem.Controllers
 
         public async Task<IActionResult> Cancel(int id)
         {
-           await _leaveRequestsService.CancelLeaveRequest(id);
+            await _leaveRequestsService.CancelLeaveRequest(id);
             return RedirectToAction(nameof(Index));
         }
         // admin and sups review requests
         [Authorize(Policy = "AdminOrSupervisorOnly")]
         public async Task<IActionResult> ListRequests()
         {
-            var model= await _leaveRequestsService.AdminGetAllLeaveRequests();
+            var model = await _leaveRequestsService.AdminGetAllLeaveRequests();
             return View(model);
         }
         [Authorize(Policy = "AdminOrSupervisorOnly")]
 
         public async Task<IActionResult> Review(int id)
         {
-            var model= await _leaveRequestsService.GetLeaveRequestForReview(id);
+            var model = await _leaveRequestsService.GetLeaveRequestForReview(id);
             return View(model);
         }
         [HttpPost]
@@ -77,7 +73,7 @@ namespace LeaveManagementSystem.Controllers
 
         public async Task<IActionResult> Review(int id, bool approved)
         {
-          await _leaveRequestsService.ReviewLeaveRequest(id,approved);
+            await _leaveRequestsService.ReviewLeaveRequest(id, approved);
             return RedirectToAction(nameof(ListRequests));
         }
     }

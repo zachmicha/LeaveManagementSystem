@@ -1,26 +1,18 @@
-using LeaveManagementSystem.Data;
-using LeaveManagementSystem.Services.Email;
-using LeaveManagementSystem.Services.LeaveAllocations;
-using LeaveManagementSystem.Services.LeaveRequests;
-using LeaveManagementSystem.Services.LeaveTypes;
-using LeaveManagementSystem.Services.Periods;
-using LeaveManagementSystem.Services.Users;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection;
+using LeaveManagementSystem.Application;
+using LeaveManagementSystem.Application.Services.Email;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddScoped<ILeaveTypesService, LeaveTypesService>();
-builder.Services.AddScoped<ILeaveAllocationsService, LeaveAllocationsService>();
-builder.Services.AddScoped<ILeaveRequestsService, LeaveRequestsService>();
-builder.Services.AddScoped<IEmailSender, EmailSender>();
+DataServiceRegistration.AddDataServices(builder.Services, builder.Configuration);
+ApplicationServiceRegistration.AddApplicationServices(builder.Services);
+
+builder.Host.UseSerilog((ctx, config)=>
+config.WriteTo.Console()
+.ReadFrom.Configuration(ctx.Configuration)
+);
 
 builder.Services.AddAuthorization(options =>
 {
@@ -31,8 +23,7 @@ builder.Services.AddAuthorization(options =>
 });
 
 
-builder.Services.AddScoped<IPeriodsService, PeriodsService>();
-builder.Services.AddScoped<IUserService, UserService>();
+
 
 builder.Services.AddHttpContextAccessor();
 
@@ -45,7 +36,8 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 builder.Services.AddControllersWithViews();
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

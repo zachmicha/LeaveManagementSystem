@@ -2,8 +2,6 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
 namespace LeaveManagementSystem.Areas.Identity.Pages.Account
 {
     /// <summary>

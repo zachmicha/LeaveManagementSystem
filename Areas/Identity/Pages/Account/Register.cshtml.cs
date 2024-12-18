@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using LeaveManagementSystem.Services.LeaveAllocations;
+using LeaveManagementSystem.Application.Services.LeaveAllocations;
 using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagementSystem.Areas.Identity.Pages.Account
@@ -60,7 +60,7 @@ namespace LeaveManagementSystem.Areas.Identity.Pages.Account
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
-            public string[] RoleNames { get; set; }
+        public string[] RoleNames { get; set; }
         /// 
         public class InputModel
         {
@@ -116,7 +116,7 @@ namespace LeaveManagementSystem.Areas.Identity.Pages.Account
         {
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-            var roles = await _roleManager.Roles.Select(r => r.Name).Where(q=>q != Roles.Administrator).ToArrayAsync();
+            var roles = await _roleManager.Roles.Select(r => r.Name).Where(q => q != Roles.Administrator).ToArrayAsync();
             RoleNames = roles;
         }
 
@@ -130,9 +130,9 @@ namespace LeaveManagementSystem.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-                user.DateOfBirth=Input.DateOfBirth;
-                user.FirstName=Input.FirstName;
-                user.LastName=Input.LastName;
+                user.DateOfBirth = Input.DateOfBirth;
+                user.FirstName = Input.FirstName;
+                user.LastName = Input.LastName;
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
@@ -140,7 +140,7 @@ namespace LeaveManagementSystem.Areas.Identity.Pages.Account
                 {
                     _logger.LogInformation("User created a new account with password.");
 
-                    if (Input.RoleName== Roles.Supervisor) 
+                    if (Input.RoleName == Roles.Supervisor)
                     {
                         await _userManager.AddToRolesAsync(user, [Roles.Employee, Roles.Supervisor]);
                     }
@@ -149,7 +149,7 @@ namespace LeaveManagementSystem.Areas.Identity.Pages.Account
                         await _userManager.AddToRoleAsync(user, Roles.Employee);
                     }
                     var userId = await _userManager.GetUserIdAsync(user);
-                   await _leaveAllocationsService.AllocateLeave(userId);
+                    await _leaveAllocationsService.AllocateLeave(userId);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
                     var callbackUrl = Url.Page(

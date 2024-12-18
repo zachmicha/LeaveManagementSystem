@@ -4,14 +4,89 @@
     "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\LeaveManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\LeaveManagementSystem.csproj": {
+    "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
-        "projectName": "LeaveManagementSystem",
-        "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
+        "projectName": "LeaveManagementSystem.Application",
+        "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj",
         "packagesPath": "C:\\Users\\krwaw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krwaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj",
+        "projectName": "LeaveManagementSystem.Common",
+        "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj",
+        "packagesPath": "C:\\Users\\krwaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,11 +124,76 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+        "projectName": "LeaveManagementSystem.Data",
+        "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\krwaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krwaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
+                "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -75,12 +215,121 @@
               "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\LeaveManagementSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
+        "projectName": "LeaveManagementSystem",
+        "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\LeaveManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\krwaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\krwaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj": {
+                "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Application\\LeaveManagementSystem.Application.csproj"
+              },
+              "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj": {
+                "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Common\\LeaveManagementSystem.Common.csproj"
+              },
+              "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\krwaw\\source\\repos\\LeaveManagementSystem\\LeaveManagementSystem.Data\\LeaveManagementSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[9.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

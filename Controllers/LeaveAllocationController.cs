@@ -1,7 +1,6 @@
-﻿using LeaveManagementSystem.Models.LeaveAllocations;
-using LeaveManagementSystem.Services.LeaveAllocations;
-using LeaveManagementSystem.Services.LeaveTypes;
-using Microsoft.AspNetCore.Mvc;
+﻿using LeaveManagementSystem.Application.Services.LeaveAllocations;
+using LeaveManagementSystem.Application.Services.LeaveTypes;
+using LeaveManagementSystem.Common.Static;
 
 namespace LeaveManagementSystem.Controllers
 {
@@ -10,8 +9,8 @@ namespace LeaveManagementSystem.Controllers
     {
         public async Task<IActionResult> Details(string? userId)
         {
-            
-          var employeeVm= await _leaveAllocationsService.GetEmployeeAllocation(userId);
+
+            var employeeVm = await _leaveAllocationsService.GetEmployeeAllocation(userId);
             return View(employeeVm);
         }
 
@@ -28,19 +27,19 @@ namespace LeaveManagementSystem.Controllers
         public async Task<IActionResult> AllocationLeave(string? Id)
         {
 
-              await _leaveAllocationsService.AllocateLeave(Id);
-            return RedirectToAction(nameof(Details), new {userId = Id});
+            await _leaveAllocationsService.AllocateLeave(Id);
+            return RedirectToAction(nameof(Details), new { userId = Id });
         }
 
         [Authorize(Roles = Roles.Administrator)]
         public async Task<IActionResult> EditAllocation(int? id)
         {
-            if (id==null)
+            if (id == null)
             {
                 return NotFound();
             }
             var allocation = await _leaveAllocationsService.GetEmployeeAllocation(id.Value);
-            if (allocation==null)
+            if (allocation == null)
             {
                 return NotFound();
             }
@@ -57,8 +56,8 @@ namespace LeaveManagementSystem.Controllers
             }
             if (ModelState.IsValid)
             {
-            await _leaveAllocationsService.EditAllocation(allocationEditVm);
-            return RedirectToAction(nameof(Details), new { userId = allocationEditVm.Employee.Id});
+                await _leaveAllocationsService.EditAllocation(allocationEditVm);
+                return RedirectToAction(nameof(Details), new { userId = allocationEditVm.Employee.Id });
             }
             var days = allocationEditVm.NumberOfDays;
             allocationEditVm = await _leaveAllocationsService.GetEmployeeAllocation(allocationEditVm.Id);
@@ -68,5 +67,5 @@ namespace LeaveManagementSystem.Controllers
         }
     }
 
-   
+
 }
