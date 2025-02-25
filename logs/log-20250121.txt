@@ -1,0 +1,230 @@
+2025-01-21 09:08:52.602 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 09:08:52.635 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 09:08:52.699 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 09:08:52.701 +01:00 [INF] Hosting environment: Development
+2025-01-21 09:08:52.702 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 09:11:57.238 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 09:11:57.268 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 09:11:57.331 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 09:11:57.333 +01:00 [INF] Hosting environment: Development
+2025-01-21 09:11:57.334 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 09:13:44.767 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 09:13:44.801 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 09:13:44.933 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 09:13:44.935 +01:00 [INF] Hosting environment: Development
+2025-01-21 09:13:44.937 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 09:13:47.360 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Views/Shared/_IdentityLayout.cshtml' could not be located. The following locations were searched:
+/Views/Shared/_IdentityLayout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 09:14:35.223 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 09:14:35.255 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 09:14:35.348 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 09:14:35.351 +01:00 [INF] Hosting environment: Development
+2025-01-21 09:14:35.352 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 14:58:53.218 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 14:58:53.250 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 14:58:53.316 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:58:53.318 +01:00 [INF] Hosting environment: Development
+2025-01-21 14:58:53.319 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 14:59:31.250 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 14:59:31.279 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 14:59:31.343 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 14:59:31.345 +01:00 [INF] Hosting environment: Development
+2025-01-21 14:59:31.346 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 15:00:20.127 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 15:00:20.172 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 15:00:20.243 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:00:20.245 +01:00 [INF] Hosting environment: Development
+2025-01-21 15:00:20.246 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 15:01:19.403 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 15:01:19.434 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 15:01:19.505 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:01:19.507 +01:00 [INF] Hosting environment: Development
+2025-01-21 15:01:19.508 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 15:07:28.282 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 15:07:28.317 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 15:07:28.386 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:07:28.388 +01:00 [INF] Hosting environment: Development
+2025-01-21 15:07:28.389 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 15:08:30.781 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 15:08:30.813 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 15:08:30.881 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:08:30.883 +01:00 [INF] Hosting environment: Development
+2025-01-21 15:08:30.883 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 15:08:57.165 +01:00 [INF] User logged in.
+2025-01-21 15:09:08.957 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at LeaveManagementSystem.Application.Services.Periods.PeriodsService.GetCurrentPeriod() in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\Periods\PeriodsService.cs:line 10
+   at LeaveManagementSystem.Application.Services.LeaveAllocations.LeaveAllocationsService.GetAllocations(String userId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveAllocations\LeaveAllocationsService.cs:line 98
+   at LeaveManagementSystem.Application.Services.LeaveAllocations.LeaveAllocationsService.GetEmployeeAllocation(String userId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveAllocations\LeaveAllocationsService.cs:line 40
+   at LeaveManagementSystem.Controllers.LeaveAllocationController.Details(String userId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\Controllers\LeaveAllocationController.cs:line 13
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 15:10:03.418 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 15:10:03.451 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 15:10:03.513 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 15:10:03.516 +01:00 [INF] Hosting environment: Development
+2025-01-21 15:10:03.517 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 16:17:03.695 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 16:17:03.722 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 16:17:03.763 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 16:17:03.765 +01:00 [INF] Hosting environment: Development
+2025-01-21 16:17:03.766 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 16:17:06.258 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-01-21 16:17:06.262 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-01-21 16:17:18.463 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-01-21 16:17:18.465 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-01-21 16:17:28.632 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-01-21 16:17:28.634 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-01-21 16:17:29.894 +01:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2025-01-21 16:17:29.895 +01:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2025-01-21 16:20:50.652 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 16:20:50.679 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 16:20:50.722 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 16:20:50.724 +01:00 [INF] Hosting environment: Development
+2025-01-21 16:20:50.725 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 16:22:27.459 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 16:22:27.485 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 16:22:27.528 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 16:22:27.530 +01:00 [INF] Hosting environment: Development
+2025-01-21 16:22:27.531 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 16:39:09.006 +01:00 [INF] Now listening on: https://localhost:7297
+2025-01-21 16:39:09.032 +01:00 [INF] Now listening on: http://localhost:5210
+2025-01-21 16:39:09.074 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-21 16:39:09.076 +01:00 [INF] Hosting environment: Development
+2025-01-21 16:39:09.077 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-01-21 16:39:33.136 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at LeaveManagementSystem.Application.Services.Periods.PeriodsService.GetCurrentPeriod() in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\Periods\PeriodsService.cs:line 10
+   at LeaveManagementSystem.Application.Services.LeaveAllocations.LeaveAllocationsService.GetAllocations(String userId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveAllocations\LeaveAllocationsService.cs:line 98
+   at LeaveManagementSystem.Application.Services.LeaveAllocations.LeaveAllocationsService.GetEmployeeAllocation(String userId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveAllocations\LeaveAllocationsService.cs:line 40
+   at LeaveManagementSystem.Controllers.LeaveAllocationController.Details(String userId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\Controllers\LeaveAllocationController.cs:line 13
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 16:40:26.336 +01:00 [INF] User logged out.
+2025-01-21 16:40:36.725 +01:00 [INF] User logged in.
+2025-01-21 16:40:39.359 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at LeaveManagementSystem.Application.Services.Periods.PeriodsService.GetCurrentPeriod() in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\Periods\PeriodsService.cs:line 10
+   at LeaveManagementSystem.Application.Services.LeaveAllocations.LeaveAllocationsService.GetAllocations(String userId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveAllocations\LeaveAllocationsService.cs:line 98
+   at LeaveManagementSystem.Application.Services.LeaveAllocations.LeaveAllocationsService.GetEmployeeAllocation(String userId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveAllocations\LeaveAllocationsService.cs:line 40
+   at LeaveManagementSystem.Controllers.LeaveAllocationController.Details(String userId)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 16:42:32.292 +01:00 [INF] User logged out.
+2025-01-21 16:42:35.927 +01:00 [INF] User logged in.
+2025-01-21 16:43:32.979 +01:00 [INF] User logged out.
+2025-01-21 16:43:36.150 +01:00 [INF] User logged in.
+2025-01-21 16:43:50.788 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at LeaveManagementSystem.Application.Services.LeaveAllocations.LeaveAllocationsService.GetCurrentAllocation(Int32 leaveTypeId, String employeeId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveAllocations\LeaveAllocationsService.cs:line 110
+   at LeaveManagementSystem.Application.Services.LeaveRequests.LeaveRequestsService.UpdateAllocationDays(LeaveRequest leaveRequest, Boolean deductDays) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveRequests\LeaveRequestsService.cs:line 157
+   at LeaveManagementSystem.Application.Services.LeaveRequests.LeaveRequestsService.CancelLeaveRequest(Int32 leaveaRequestId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveRequests\LeaveRequestsService.cs:line 13
+   at LeaveManagementSystem.Controllers.LeaveRequestsController.Cancel(Int32 id)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-21 16:44:04.337 +01:00 [INF] User logged out.
+2025-01-21 16:44:08.223 +01:00 [INF] User logged in.
+2025-01-21 16:44:17.947 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at LeaveManagementSystem.Application.Services.LeaveAllocations.LeaveAllocationsService.GetCurrentAllocation(Int32 leaveTypeId, String employeeId) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveAllocations\LeaveAllocationsService.cs:line 110
+   at LeaveManagementSystem.Application.Services.LeaveRequests.LeaveRequestsService.UpdateAllocationDays(LeaveRequest leaveRequest, Boolean deductDays) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveRequests\LeaveRequestsService.cs:line 157
+   at LeaveManagementSystem.Application.Services.LeaveRequests.LeaveRequestsService.ReviewLeaveRequest(Int32 leaveRequestId, Boolean approved) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem.Application\Services\LeaveRequests\LeaveRequestsService.cs:line 99
+   at LeaveManagementSystem.Controllers.LeaveRequestsController.Review(Int32 id, Boolean approved)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)

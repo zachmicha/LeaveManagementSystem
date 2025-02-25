@@ -4,60 +4,69 @@
     ViewData["Title"] = "Register";
 }
 
-<h1>@ViewData["Title"]</h1>
 
-<div class="row">
-    <div class="col-md-4">
-        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <h2>Create a new account.</h2>
-            <hr />
-            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
-                <label asp-for="Input.Email">Email</label>
-                <span asp-validation-for="Input.Email" class="text-danger"></span>
-            </div>
-             <div class="form-floating mb-3">
-                <input asp-for="Input.FirstName" class="form-control"  aria-required="true" placeholder="John" />
-                <label asp-for="Input.FirstName">FirstName</label>
-                <span asp-validation-for="Input.FirstName" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.LastName" class="form-control" aria-required="true" placeholder="Snow" />
-                <label asp-for="Input.LastName">LastName</label>
-                <span asp-validation-for="Input.LastName" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.DateOfBirth" class="form-control" aria-required="true" placeholder="" />
-                <label asp-for="Input.DateOfBirth">DateOfBirth</label>
-                <span asp-validation-for="Input.DateOfBirth" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                <label asp-for="Input.Password">Password</label>
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                <label asp-for="Input.ConfirmPassword">Confirm Password</label>
-                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-            </div>
-            <div class="mb-4">
-
-            @foreach (var role in Model.RoleNames)
-            {
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" asp-for="Input.RoleName"  value="@role"/>
-                    <label class="form-check-label" asp-for="Input.RoleName">
-                        @role
-                    </label>
+<div class="d-flex align-items-left justify-content-left w-70">
+    <div class="row justify-content-center w-100">
+        <div class="col-md-12 col-lg-12 col-xxl-6">
+            <div class="card mb-0">
+                <div class="card-body">
+                    <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                        <img src="~/images/camera.png" width="120" alt="">
+                    </a>
+                    <h2 class="text-center">Create a new account.</h2>
+                    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                        <div class="mb-3">
+                            <label asp-for="Input.FirstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" asp-for="Input.FirstName" aria-describedby="textHelp">
+                            <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Input.LastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" asp-for="Input.LastName" aria-describedby="textHelp">
+                            <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Input.Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" asp-for="Input.Email" aria-describedby="textHelp">
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Input.DateOfBirth" class="form-label">Date of Birth</label>
+                            <input type="text" class="form-control" asp-for="Input.DateOfBirth" aria-describedby="emailHelp">
+                            <span asp-validation-for="Input.DateOfBirth" class="text-danger"></span>
+                        </div>
+                        <div class="mb-4">
+                            <label asp-for="Input.Password" class="form-label">Password</label>
+                            <input type="password" class="form-control" asp-for="Input.Password">
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="mb-4">
+                            <label asp-for="Input.ConfirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" asp-for="Input.ConfirmPassword">
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+                        <div class="mb-4">
+                            @foreach (var role in Model.RoleNames)
+                            {
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" asp-for="Input.RoleName" value="@role">
+                                    <label class="form-check-label" asp-for="Input.RoleName">
+                                        @role
+                                    </label>
+                                </div>
+                            }
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 fs-4 mb-4 rounded-2">Sign Up</button>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <p class="fs-4 mb-0 fw-bold">Already have an Account?</p>
+                            <a class="text-primary fw-bold ms-2" asp-page="./Login">Sign In</a>
+                        </div>
+                    </form>
                 </div>
-            }
-            <span asp-validation-for="Input.RoleName" class="text-danger"></span>
             </div>
-            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
-        </form>
+        </div>
     </div>
+</div>
     <div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to register.</h3>
@@ -92,4 +101,13 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(function () {
+            $("#Input_DateOfBirth").datepicker({
+                dateFormat: 'yy-mm-dd',
+                changeMonth: true,
+                changeYear: true
+            });
+        });
+    </script>
 }

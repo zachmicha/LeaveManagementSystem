@@ -1,0 +1,192 @@
+2025-02-25 12:52:00.757 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 12:52:00.792 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 12:52:00.863 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 12:52:00.866 +01:00 [INF] Hosting environment: Development
+2025-02-25 12:52:00.867 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 12:54:44.434 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 12:54:44.469 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 12:54:44.562 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 12:54:44.566 +01:00 [INF] Hosting environment: Development
+2025-02-25 12:54:44.568 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 13:02:05.747 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 13:02:05.789 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 13:02:05.865 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 13:02:05.867 +01:00 [INF] Hosting environment: Development
+2025-02-25 13:02:05.868 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 13:05:57.368 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 13:05:57.394 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 13:05:57.435 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 13:05:57.437 +01:00 [INF] Hosting environment: Development
+2025-02-25 13:05:57.437 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 13:06:00.988 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Register.<ExecuteAsync>b__36_1() in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\Areas\Identity\Pages\Account\Register.cshtml:line 49
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Register.ExecuteAsync() in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\Areas\Identity\Pages\Account\Register.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 13:08:11.903 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 13:08:11.932 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 13:08:11.976 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 13:08:11.978 +01:00 [INF] Hosting environment: Development
+2025-02-25 13:08:11.979 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 13:37:00.594 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 13:37:00.623 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 13:37:00.668 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 13:37:00.671 +01:00 [INF] Hosting environment: Development
+2025-02-25 13:37:00.672 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 13:45:49.528 +01:00 [INF] User created a new account with password.
+2025-02-25 13:46:02.667 +01:00 [INF] User logged in.
+2025-02-25 13:46:42.656 +01:00 [INF] User logged out.
+2025-02-25 13:47:00.643 +01:00 [INF] User logged in.
+2025-02-25 13:47:27.443 +01:00 [INF] User logged in.
+2025-02-25 13:48:04.714 +01:00 [INF] User logged out.
+2025-02-25 13:56:59.524 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 13:56:59.551 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 13:56:59.595 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 13:56:59.597 +01:00 [INF] Hosting environment: Development
+2025-02-25 13:56:59.598 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 13:58:05.958 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 13:58:05.990 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 13:58:06.076 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 13:58:06.078 +01:00 [INF] Hosting environment: Development
+2025-02-25 13:58:06.079 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 13:59:47.036 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 13:59:47.065 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 13:59:47.110 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 13:59:47.112 +01:00 [INF] Hosting environment: Development
+2025-02-25 13:59:47.114 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:04:29.242 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:04:29.269 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:04:29.314 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:04:29.316 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:04:29.317 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:04:45.259 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:04:45.286 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:04:45.326 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:04:45.328 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:04:45.329 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:05:32.105 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:05:32.134 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:05:32.176 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:05:32.178 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:05:32.179 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:06:55.577 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:06:55.604 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:06:55.647 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:06:55.649 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:06:55.649 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:07:35.919 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:07:35.946 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:07:35.990 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:07:35.992 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:07:35.993 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:07:53.524 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:07:53.551 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:07:53.599 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:07:53.601 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:07:53.602 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:08:05.565 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:08:05.596 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:08:05.643 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:08:05.646 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:08:05.647 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:08:40.904 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:08:40.932 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:08:40.978 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:08:40.980 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:08:40.982 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:08:51.483 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:08:51.514 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:08:51.565 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:08:51.567 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:08:51.568 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:14:55.841 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:14:55.869 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:14:55.913 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:14:55.914 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:14:55.915 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:15:19.720 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:15:19.750 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:15:19.802 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:15:19.803 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:15:19.806 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:16:16.722 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:16:16.749 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:16:16.794 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:16:16.796 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:16:16.797 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:16:46.115 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:16:46.145 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:16:46.191 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:16:46.193 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:16:46.194 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:17:16.995 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:17:17.023 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:17:17.068 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:17:17.071 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:17:17.071 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:35:31.635 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:35:31.663 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:35:31.709 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:35:31.710 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:35:31.711 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:36:23.417 +01:00 [INF] User created a new account with password.
+2025-02-25 14:36:23.604 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\wwwroot\templates\email_layout.html'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at LeaveManagementSystem.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(String returnUrl) in C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem\Areas\Identity\Pages\Account\Register.cshtml.cs:line 167
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-25 14:37:04.167 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:37:04.195 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:37:04.240 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:37:04.242 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:37:04.243 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:38:13.921 +01:00 [INF] Now listening on: https://localhost:7297
+2025-02-25 14:38:13.963 +01:00 [INF] Now listening on: http://localhost:5210
+2025-02-25 14:38:14.057 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-25 14:38:14.059 +01:00 [INF] Hosting environment: Development
+2025-02-25 14:38:14.060 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-02-25 14:38:58.087 +01:00 [INF] User created a new account with password.
+2025-02-25 14:39:18.651 +01:00 [INF] User logged in.
+2025-02-25 14:39:22.556 +01:00 [INF] User logged out.
