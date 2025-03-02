@@ -10,3 +10,4 @@
 ![createleaverequest](https://github.com/user-attachments/assets/e28d3ce1-39ee-424a-b631-9f7b62909d0b)
 ![manageyouraccount](https://github.com/user-attachments/assets/60960323-e99b-4e2e-b4b6-5688a90af882)
 ![periods](https://github.com/user-attachments/assets/91e3719f-3761-435f-9bc7-90737bc246fc)
+![leaveallocation](https://github.com/user-attachments/assets/d2dc1c60-3718-4ebe-8d40-e60ac87b729e)
