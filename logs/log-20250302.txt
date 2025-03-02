@@ -1,0 +1,95 @@
+2025-03-02 23:03:41.879 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:03:41.914 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:03:41.984 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:03:41.985 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:03:41.986 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:04:45.059 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:04:45.087 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:04:45.134 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:04:45.135 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:04:45.136 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:05:47.147 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:05:47.174 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:05:47.216 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:05:47.219 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:05:47.220 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:08:27.658 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:08:27.686 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:08:27.737 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:08:27.739 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:08:27.741 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:08:43.392 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:08:43.423 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:08:43.466 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:08:43.467 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:08:43.468 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:09:11.729 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:09:11.756 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:09:11.804 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:09:11.806 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:09:11.808 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:10:35.598 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:10:35.626 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:10:35.670 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:10:35.672 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:10:35.673 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:10:55.077 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:10:55.111 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:10:55.159 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:10:55.161 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:10:55.162 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:11:05.958 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:11:05.988 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:11:06.042 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:11:06.044 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:11:06.045 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:11:22.915 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:11:22.943 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:11:23.003 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:11:23.005 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:11:23.006 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:11:35.261 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:11:35.289 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:11:35.341 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:11:35.343 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:11:35.344 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:13:04.340 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:13:04.369 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:13:04.417 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:13:04.419 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:13:04.420 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:13:24.946 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:13:24.976 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:13:25.028 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:13:25.031 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:13:25.032 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:13:59.989 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:14:00.024 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:14:00.083 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:14:00.086 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:14:00.087 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:14:22.333 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:14:22.360 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:14:22.405 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:14:22.407 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:14:22.408 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:18:34.587 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:18:34.618 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:18:34.669 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:18:34.670 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:18:34.671 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:19:08.264 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:19:08.293 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:19:08.345 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:19:08.347 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:19:08.349 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:20:17.554 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:20:17.583 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:20:17.626 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:20:17.628 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:20:17.629 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
+2025-03-02 23:20:49.717 +01:00 [INF] Now listening on: https://localhost:7297
+2025-03-02 23:20:49.746 +01:00 [INF] Now listening on: http://localhost:5210
+2025-03-02 23:20:49.793 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-02 23:20:49.795 +01:00 [INF] Hosting environment: Development
+2025-03-02 23:20:49.796 +01:00 [INF] Content root path: C:\Users\krwaw\source\repos\LeaveManagementSystem\LeaveManagementSystem
